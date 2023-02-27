@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+header {
+    display: flex;
+    padding: 10px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    list-style-type: none;
+}
+section {
+    display: flex;
+}
+h3 {
+    width: 100px;
+    display: flex;
+    padding: 20px;
+}
+div {
+    width: 65%;
+    display: inline;
+    padding: 20px;
+}
+.big {
+    border: solid gray;
+    width: 625px;
+    height: 250px;
+    padding: 10px;
+}
+.small {
+    border: solid gray;
+    width: 300px;
+    height: 75px;
+    padding: 10px;
+}
+h2 {
+    position: relative;
+    margin: 0;
+}
+img {
+    margin: 0;
+    width: 1200px;
+    height: auto;
+}
+.subtitle {
+    position: relative;
+}
