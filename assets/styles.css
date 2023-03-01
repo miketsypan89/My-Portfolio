@@ -1,9 +1,27 @@
 * {
     margin: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: rgb(255, 248, 239);
 }
 header {
     display: flex;
     padding: 10px;
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    width: 100%;
+}
+h1 {
+    margin-left: 2%;
+    padding: 25px;
+}
+.nav-list {
+    padding: 25px;
+    margin-right: 5%;
+    width: 30%;
 }
 ul {
     display: flex;
@@ -11,6 +29,11 @@ ul {
 }
 li {
     list-style-type: none;
+}
+button {
+    height: 100%;
+    justify-content: space-around;
+    width: 100px;
 }
 section {
     display: flex;
@@ -37,15 +60,37 @@ div {
     height: 75px;
     padding: 10px;
 }
-h2 {
+
+.backdrop {
+    background-image: url("jacksonville-downtown.jpeg");
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
-    margin: 0;
+    padding-top: 102px;
+    zoom: 1.08;
 }
-img {
-    margin: 0;
-    width: 1200px;
-    height: auto;
+.profile-pic {
+    background-image: url("Mike Tsypan.JPG");
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 120px;
+    top: 85px;
+    border: solid rgb(255, 255, 255) 8px;
+    background-position: center;
+    object-position: left;
 }
+
 .subtitle {
-    position: relative;
+    border: none;
+    background-color: rgba(19, 20, 20, 0.714);
+    width: 65%;
+    height: 40px;
+    position: absolute;
+    padding: 30px;
+    bottom: 120px;
+    right: 0%;
+    margin: 0;
+    color: rgb(255, 255, 255);
 }
