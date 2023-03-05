@@ -1,22 +1,30 @@
 * {
     margin: 0;
-    font-family: sans-serif;
 }
 body {
-    background-color: rgb(255, 248, 239);
+    background-color: #fff8ef;
 }
+
 header {
     display: flex;
-    padding: 10px;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 1;
+    background-color: rgb(12, 0, 27);
+    font-family: "Genos";
+    font-size: 38px;
+    font-weight: bold;
+    text-shadow: rgba(233, 233, 233, 0.521) 1px 0 10px;
+    color: rgba(235, 223, 255, 0.76);
+    box-shadow: 0px 0px 18px 1px rgb(37, 37, 37);
+    z-index: 10;
     width: 100%;
+    height: 107px;
 }
 h1 {
-    margin-left: 2%;
-    padding: 25px;
+    margin-left: 120px;
+    padding: 0px;
+    font-weight:lighter;
 }
 .nav-list {
     padding: 25px;
@@ -30,67 +38,338 @@ ul {
 li {
     list-style-type: none;
 }
-button {
-    height: 100%;
+.nav-button {
+    height: 50px;
     justify-content: space-around;
-    width: 100px;
+    width: 110px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.216);
+    box-shadow: 0px 0px 16px 2px rgba(255, 255, 255, 0.186);
+    color: antiquewhite;
+    font-size: 22px;
+    font-family: "Genos";
+}
+.nav-button:hover {
+    height: 50px;
+    justify-content: space-around;
+    width: 110px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.216);
+    box-shadow: 0px 0px 16px 2px rgba(255, 255, 255, 0.186);
+    color: antiquewhite;
+    font-size: 16px;
+    color: rgb(237, 255, 40);
+    box-shadow: 0px 0px 16px 2px rgba(247, 255, 8, 0.186);
+    font-size: 22px;
+    font-family: "Genos";
+    cursor: pointer;
+}
+.nav-button:active {
+    height: 50px;
+    justify-content: space-around;
+    width: 110px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.216);
+    box-shadow: 0px 0px 16px 2px rgba(255, 255, 255, 0.186);
+    color: antiquewhite;
+    font-size: 22px;
+    font-family: "Genos";
+    box-shadow: 0px 0px 16px 2px rgba(249, 255, 86, 0.123);
+    color: rgb(246, 255, 144);
+    cursor: pointer;
 }
 section {
     display: flex;
 }
-h3 {
+.section-title {
     width: 100px;
     display: flex;
-    padding: 20px;
+    padding-left: 100px;
+    padding-right: 30px;
+    text-align: right;
+    font-family: "Genos";
+    font-size: 45px;
+    border-right: solid 10px #0c001b;
+    color: #0c001b;
+    background-color: #fff8ef;
+    opacity: 1;
+    background: repeating-linear-gradient( 45deg, #f7f0e4, #f7f0e4 5.5px, #fff8ef 5.5px, #fff8ef 27.5px );
+}
+.footer-holder {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-title {
+    height: 100px;
+    width: 100px;
+    padding-left: 100px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    font-family: "Genos";
+    font-size: 35px;
+    text-align: right;
+    color: antiquewhite;
+    border-right: solid 10px antiquewhite;
+    opacity: 1;
+    background: repeating-linear-gradient( 45deg, #130025, #1e013a 5.5px, #0e0017 5.5px, #0e0017 27.5px );
+}
+
+.footer-content {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-family: "Genos";
+    font-size: 35px;
+    justify-content: space-around;
+    text-align: right;
+    font-size: 25px;
+    background-color: #0c001b;
+    color: antiquewhite;
+}
+h3 {
+    padding-left: 0px;
+}
+h4 {
+    padding: 3px;
+    padding-left: 10px;
+}
+h5 {
+    width: 426px;
+    padding: 3px;
+    margin-top: 3px;
+    margin-left: 8px;
+    text-align: right;
+    color: rgb(182, 182, 182);
+}
+p {
+    padding-left: 40px;
+    width: 94%;
+    font-family: "Genos";
+    font-size: 26px;
+}
+.works-list {
+    padding-left: 40px;
+}
+.works-list {
+    padding-left: 40px;
 }
 div {
     width: 65%;
     display: inline;
-    padding: 20px;
+    padding-left: 0px;
 }
-.big {
-    border: solid gray;
-    width: 625px;
-    height: 250px;
-    padding: 10px;
+.subtitle {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: rgba(19, 20, 20, 0.714);
+    width: 50%;
+    height: 40px;
+    left: 50px;
+    font-family: "Genos";
+    font-size: 48px;
+    font-weight: 100;
+    box-shadow: 0px 0px 10px 2px rgba(144, 0, 201, 0.459);
+    text-shadow: rgba(233, 233, 233, 0.521) 1px 0 10px;
+    position: absolute;
+    padding: 30px;
+    padding-left: 500px;
+    bottom: 120px;
+    color: rgba(255, 255, 255, 0.712);
 }
-.small {
-    border: solid gray;
-    width: 300px;
-    height: 75px;
-    padding: 10px;
-}
-
 .backdrop {
     background-image: url("jacksonville-downtown.jpeg");
     height: 450px;
+    margin: none;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
     padding-top: 102px;
     zoom: 1.08;
+    display: flex;
+    justify-content: block;
+}
+.pic-container {
+    position: relative;
+    overflow: hidden;
+    border: solid rgb(255, 248, 239) 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    left: 120px;
+    top: 85px;
+    z-index: 2;
 }
 .profile-pic {
+    background-size: contain;
     background-image: url("Mike Tsypan.JPG");
     height: 300px;
     width: 300px;
+    border-radius: 300px;
     position: relative;
-    left: 120px;
-    top: 85px;
-    border: solid rgb(255, 255, 255) 8px;
     background-position: center;
     object-position: left;
-}
+    filter: grayscale(70%);
+    transform: scale(1.7);
+    transition: .3s;
+    z-index: 1;
 
-.subtitle {
+}
+.profile-pic:hover {
+    background-size: contain;
+    background-image: url("Mike Tsypan.JPG");
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    position: relative;
+    border: solid rgb(255, 248, 239) 10px;
+    background-position: center;
+    object-position: left;
+    filter: grayscale(0%);
+    transform: scale(2);
+    transform-origin: center center;
+}
+.about-me {
+    padding-bottom: 70px;
+}
+a.about-me-anchor {
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
+}
+a.my-work-anchor {
+    display: block;
+    position: relative;
+    top: 198px;
+    visibility: hidden;
+}
+a.contact-anchor {
+    display: block;
+    position: relative;
+    visibility: hidden;
+}
+a:link {
+    color: antiquewhite;
+    text-decoration: none;
+}
+a:visited {
+    color: antiquewhite;
+    text-decoration: none;
+}
+a:hover {
+    color: antiquewhite;
+    text-decoration: none;
+}
+a:active {
+    color: antiquewhite;
+    text-decoration: none;
+}
+.work {
+    display: flex;
+    padding-bottom: 70px;
+}
+.block {
+    display: block;
+}
+.list-of-my-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:end;
+
+}
+.big {
+    color: antiquewhite;
+    width: 100%;
+    height: 380px;
+    background-color: rgba(178, 184, 204, 0.13);
+    background-image: url("./it-img.png");
+    zoom: 1.05;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 2px rgba(140,140,140,1);
+}
+.small-1 {
+    margin-top: 40px;
+    width: 48%;
+    height: 180px;
+    background-color: rgb(206, 206, 206);
+    background-image: url("./search-engine-optimization.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 2px rgba(140,140,140,1);
+}
+.small-placeholder {
+    margin-top: 40px;
+    width: 48%;
+    height: 180px;
+    background-color: rgb(73, 73, 73);
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 2px rgba(140,140,140,1);
+}
+.button-in-my-work {
+    margin-top: 25px;
+    margin-left: 25px;
+    text-align-last: left;
+    height: 50px;
+    width:400px;
     border: none;
-    background-color: rgba(19, 20, 20, 0.714);
-    width: 65%;
-    height: 40px;
-    position: absolute;
-    padding: 30px;
-    bottom: 120px;
-    right: 0%;
-    margin: 0;
-    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 16px 2px rgba(255, 255, 255, 0.186);
+    color: antiquewhite;
+    font-size: 16px;
+    font-family: "Genos";
+}
+.button-in-my-work:hover {
+    margin-top: 25px;
+    margin-left: 25px;
+    text-align-last: left;
+    height: 50px;
+    width:400px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 0px 16px 2px rgba(247, 255, 8, 0.186);
+    color: rgb(237, 255, 40);
+    font-size: 16px;
+    cursor: pointer;
+}
+.button-in-my-work:active {
+    margin-top: 25px;
+    margin-left: 25px;
+    text-align-last: left;
+    height: 50px;
+    width:400px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 16px 2px rgba(249, 255, 86, 0.123);
+    color: rgb(246, 255, 144);
+    font-size: 16px;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: 214px;
+    }
+    a.my-work-anchor {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-button {
+        height: 50px;
+        width: 300px;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.216);
+        box-shadow: 0px 0px 16px 2px rgba(255, 255, 255, 0.186);
+        color: antiquewhite;
+        font-size: 22px;
+        font-family: "Genos";
+    }
 }
