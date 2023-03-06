@@ -1,9 +1,12 @@
 * {
     margin: 0;
 }
+
 body {
     background-color: #fff8ef;
 }
+
+/* Scroll down to towards the bottom to Read the comments on how to best view the Media Query*/
 
 header {
     display: flex;
@@ -21,23 +24,28 @@ header {
     width: 100%;
     height: 107px;
 }
+
 h1 {
     margin-left: 120px;
     padding: 0px;
-    font-weight:lighter;
+    font-weight: lighter;
 }
+
 .nav-list {
     padding: 25px;
     margin-right: 5%;
     width: 30%;
 }
+
 ul {
     display: flex;
     justify-content: space-around;
 }
+
 li {
     list-style-type: none;
 }
+
 .nav-button {
     height: 50px;
     justify-content: space-around;
@@ -49,6 +57,7 @@ li {
     font-size: 22px;
     font-family: "Genos";
 }
+
 .nav-button:hover {
     height: 50px;
     justify-content: space-around;
@@ -64,6 +73,7 @@ li {
     font-family: "Genos";
     cursor: pointer;
 }
+
 .nav-button:active {
     height: 50px;
     justify-content: space-around;
@@ -78,9 +88,11 @@ li {
     color: rgb(246, 255, 144);
     cursor: pointer;
 }
+
 section {
     display: flex;
 }
+
 .section-title {
     width: 100px;
     display: flex;
@@ -93,14 +105,16 @@ section {
     color: #0c001b;
     background-color: #fff8ef;
     opacity: 1;
-    background: repeating-linear-gradient( 45deg, #f7f0e4, #f7f0e4 5.5px, #fff8ef 5.5px, #fff8ef 27.5px );
+    background: repeating-linear-gradient(45deg, #f7f0e4, #f7f0e4 5.5px, #fff8ef 5.5px, #fff8ef 27.5px);
 }
+
 .footer-holder {
     display: flex;
     justify-content: space-around;
 }
+
 .footer-title {
-    height: 100px;
+    height: 150px;
     width: 100px;
     padding-left: 100px;
     padding-right: 30px;
@@ -112,12 +126,12 @@ section {
     color: antiquewhite;
     border-right: solid 10px antiquewhite;
     opacity: 1;
-    background: repeating-linear-gradient( 45deg, #130025, #1e013a 5.5px, #0e0017 5.5px, #0e0017 27.5px );
+    background: repeating-linear-gradient(45deg, #130025, #1e013a 5.5px, #0e0017 5.5px, #0e0017 27.5px);
 }
 
 .footer-content {
     width: 100%;
-    height: 100px;
+    height: 150px;
     display: flex;
     align-items: center;
     font-family: "Genos";
@@ -128,13 +142,16 @@ section {
     background-color: #0c001b;
     color: antiquewhite;
 }
+
 h3 {
     padding-left: 0px;
 }
+
 h4 {
     padding: 3px;
     padding-left: 10px;
 }
+
 h5 {
     width: 426px;
     padding: 3px;
@@ -143,23 +160,55 @@ h5 {
     text-align: right;
     color: rgb(182, 182, 182);
 }
+
 p {
     padding-left: 40px;
     width: 94%;
     font-family: "Genos";
     font-size: 26px;
 }
+
 .works-list {
     padding-left: 40px;
 }
+
 .works-list {
     padding-left: 40px;
 }
-div {
+
+.about-me-text {
     width: 65%;
     display: inline;
     padding-left: 0px;
 }
+
+div {
+    width: 65%;
+    display: flex;
+    padding-left: 0px;
+}
+
+div .big {
+    width: 1103px;
+    display: flex;
+    padding-left: 0px;
+}
+
+div .big:active {
+    width: 1103px;
+    display: flex;
+    padding-left: 0px;
+    box-shadow: none;
+}
+
+div .big:hover {
+    width: 1103px;
+    display: flex;
+    opacity: .8;
+    padding-left: 0px;
+    box-shadow: none;
+}
+
 .subtitle {
     display: flex;
     align-items: center;
@@ -179,6 +228,7 @@ div {
     bottom: 120px;
     color: rgba(255, 255, 255, 0.712);
 }
+
 .backdrop {
     background-image: url("jacksonville-downtown.jpeg");
     height: 450px;
@@ -191,6 +241,7 @@ div {
     display: flex;
     justify-content: block;
 }
+
 .pic-container {
     position: relative;
     overflow: hidden;
@@ -202,6 +253,7 @@ div {
     top: 85px;
     z-index: 2;
 }
+
 .profile-pic {
     background-size: contain;
     background-image: url("Mike Tsypan.JPG");
@@ -217,6 +269,7 @@ div {
     z-index: 1;
 
 }
+
 .profile-pic:hover {
     background-size: contain;
     background-image: url("Mike Tsypan.JPG");
@@ -231,58 +284,72 @@ div {
     transform: scale(2);
     transform-origin: center center;
 }
+
 .about-me {
     padding-bottom: 70px;
 }
+
 a.about-me-anchor {
     display: block;
     position: relative;
     top: -120px;
     visibility: hidden;
 }
+
 a.my-work-anchor {
     display: block;
     position: relative;
-    top: 198px;
+    top: 260px;
     visibility: hidden;
 }
+
 a.contact-anchor {
     display: block;
     position: relative;
     visibility: hidden;
 }
+
 a:link {
     color: antiquewhite;
     text-decoration: none;
 }
+
 a:visited {
     color: antiquewhite;
     text-decoration: none;
 }
+
 a:hover {
     color: antiquewhite;
     text-decoration: none;
 }
+
 a:active {
     color: antiquewhite;
     text-decoration: none;
 }
+
 .work {
     display: flex;
     padding-bottom: 70px;
 }
+
 .block {
     display: block;
 }
+
 .list-of-my-work {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items:end;
+    align-items: end;
+    padding-left: 40px;
+    width: 1155px
 }
+
 .big {
     color: antiquewhite;
-    width: 100%;
+    width: 450px;
     height: 380px;
     background-color: rgba(178, 184, 204, 0.13);
     background-image: url("./it-img.png");
@@ -290,11 +357,12 @@ a:active {
     background-repeat: no-repeat;
     position: relative;
     border-radius: 10px;
-    box-shadow: 0px 0px 16px 2px rgba(140,140,140,1);
+    box-shadow: 0px 0px 16px 2px rgba(140, 140, 140, 1);
 }
+
 .small-1 {
     margin-top: 40px;
-    width: 48%;
+    width: 550px;
     height: 180px;
     background-color: rgb(206, 206, 206);
     background-image: url("./search-engine-optimization.jpg");
@@ -303,22 +371,84 @@ a:active {
     background-position: center;
     position: relative;
     border-radius: 10px;
-    box-shadow: 0px 0px 16px 2px rgba(140,140,140,1);
+    box-shadow: 0px 0px 16px 2px rgba(140, 140, 140, 1);
 }
-.small-placeholder {
+
+.small-1:hover {
     margin-top: 40px;
-    width: 48%;
+    width: 550px;
     height: 180px;
-    background-color: rgb(73, 73, 73);
+    background-color: rgb(206, 206, 206);
+    background-image: url("./search-engine-optimization.jpg");
+    background-repeat: no-repeat;
+    opacity: .8;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
     border-radius: 10px;
-    box-shadow: 0px 0px 16px 2px rgba(140,140,140,1);
+    box-shadow: 0px 0px 16px 2px rgba(140, 140, 140, 1);
 }
+
+.small-1:active {
+    margin-top: 40px;
+    width: 550px;
+    height: 180px;
+    background-color: rgb(206, 206, 206);
+    background-image: url("./search-engine-optimization.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: none
+}
+
+.placeholder {
+    margin-top: 40px;
+    width: 550px;
+    height: 180px;
+    background-color: rgb(206, 206, 206);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 2px rgba(140, 140, 140, 1);
+}
+
+.placeholder:hover {
+    margin-top: 40px;
+    width: 550px;
+    height: 180px;
+    opacity: .8;
+    background-color: rgb(206, 206, 206);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 2px rgba(140, 140, 140, 1);
+}
+
+.placeholder:active {
+    margin-top: 40px;
+    width: 550px;
+    height: 180px;
+    background-color: rgb(206, 206, 206);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
 .button-in-my-work {
     margin-top: 25px;
     margin-left: 25px;
     text-align-last: left;
     height: 50px;
-    width:400px;
+    width: 400px;
     border: none;
     background-color: rgba(0, 0, 0, 0.8);
     box-shadow: 0px 0px 16px 2px rgba(255, 255, 255, 0.186);
@@ -326,119 +456,112 @@ a:active {
     font-size: 16px;
     font-family: "Genos";
 }
-.button-in-my-work:hover {
-    margin-top: 25px;
-    margin-left: 25px;
-    text-align-last: left;
-    height: 50px;
-    width:400px;
-    border: none;
-    background-color: rgba(0, 0, 0, 0.9);
-    box-shadow: 0px 0px 16px 2px rgba(247, 255, 8, 0.186);
-    color: rgb(237, 255, 40);
-    font-size: 16px;
-    cursor: pointer;
-}
-.button-in-my-work:active {
-    margin-top: 25px;
-    margin-left: 25px;
-    text-align-last: left;
-    height: 50px;
-    width:400px;
-    border: none;
-    background-color: rgba(0, 0, 0, 0.7);
-    box-shadow: 0px 0px 16px 2px rgba(249, 255, 86, 0.123);
-    color: rgb(246, 255, 144);
-    font-size: 16px;
-    cursor: pointer;
-}
-@media screen and (max-width: 768px) {
+
+/* This Medis Query is set up to best work on iPad Air Portrait Mode, which is exactly 820px. */
+@media screen and (max-width: 820px) {
     header {
         flex-direction: column;
-        height: 320px;
-        margin: 0px;
-        width: 770px;
+        height: 318px;
+        width: 820px;
     }
+
     h1 {
         margin: 0;
         text-align: center;
     }
+
     .nav-list {
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
-        margin: 0;
-        padding: 20px;
-        padding-bottom: 20px;
+        position: relative;
+        padding-left: 90px;
+        padding-top: 5px;
+        top: -10px;
     }
+
     .nav-button {
-        width: 400px;
+        width: 480px;
     }
+
     .nav-button:hover {
-        width: 400px;
+        width: 480px;
     }
+
     .nav-button:active {
-        width: 400px;
+        width: 480px;
     }
+
     .backdrop {
         padding-top: 440px;
         width: 100%;
         margin-bottom: -200px;
     }
+
     .pic-container {
         left: 30px;
         top: -155px;
     }
+
     .subtitle {
         padding-left: 330px;
         text-align: center;
-        width: 250px;
+        width: 290px;
         height: 140px;
         left: 20px;
         top: 350px;
+    }
 
-    }
     a.about-me-anchor {
-        top: -30px;
+        top: -350px;
     }
+
     a.my-work-anchor {
-        top: 600px;
+        top: 340px;
     }
+
     .section-title {
         width: 100px;
-        padding-left: 50px;
+        padding-left: 35px;
     }
-    .footer-title {
-        width: 100px;
-        padding-left: 50px;
-    }
-    .button-in-my-work {
 
-        width: 300px;
-    }
-    .list-of-my-work {
+
+    div .list-of-my-work {
         flex-direction: column;
+        padding-left: 40px;
     }
-    .big {
-        width: 100%;
-        height: 280px;
+
+    div .big {
+        width: 530px;
+        height: 250px;
     }
+
     .small-1 {
-        width: 100%;
-        height: 100px;
+        height: 180px;
     }
-    .small-placeholder {
-        width: 100%;
-        height: 100px;
+
+    .placeholder {
+        height: 180px;
     }
+
     .footer-content {
         flex-direction: column;
         padding: 25px;
     }
+
     .footer-content .nav-button {
         width: 200px;
     }
+
     .footer-content {
         width: 100%;
+        height: 100px;
         justify-content: space-around;
+    }
+
+    .footer-title {
+        width: 100px;
+        padding-left: 35px;
     }
 }

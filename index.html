@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Genos">
     <title>Portfolio: Mike Tsypan</title>
 </head>
+<!-- This Body is best for viewing and testing on a normal computer screen that's 1920px in width. -->
+<!-- To text the Media Query, be mindful that it was designed speficially for iPad Air portrait mode which is exactly 820px -->
+
 <body>
     <header>
         <h1>Mike Tsypan</h1>
@@ -25,137 +29,84 @@
     <a class="about-me-anchor" id="about-me-anchor"></a>
     <section class="about-me" id="about-me">
         <h3 class="section-title">About Me</h3>
-        <div>
-            <p>My actual name is Mikhail, but I like to go by Mike. I was born in the Ukraine into a family of 9 kids. Our family immigrated to the United States when I was 11 years old. Originally, we settled in the beautiful mountains of Western North Carolina. </p>
-            <p>I am passionate about God and His ever-growing Kingdom here on Earth. I went to a Bible College in Jacksonville, Florida in 2011, and a few years later I've decided to permanently move here. </p>
+        <div class="about-me-text">
+            <p>My actual name is Mikhail, but I like to go by Mike. I was born in the Ukraine into a family of 9 kids.
+                Our family immigrated to the United States when I was 11 years old. Originally, we settled in the
+                beautiful mountains of Western North Carolina. </p>
+            <p>I am passionate about God and His ever-growing Kingdom here on Earth. I went to a Bible College in
+                Jacksonville, Florida in 2011, and a few years later I've decided to permanently move here. </p>
             <p>It was here in Jacksonville where I met my wife. We have been happily married since August of 2014. </p>
-            <p>I'm very blessed with three beautiful kids, whom I absolutely adore (two girls and a boy; ages 7, 5 and 3) </p>
-            <p>Currently I work in logistics, but have sparked an interest in coding and decided to build my skill set by attending a bootcamp at UCF.</p>
+            <p>I'm very blessed with three beautiful kids, whom I absolutely adore (two girls and a boy; ages 7, 5 and
+                3) </p>
+            <p>Currently I work in logistics, but have sparked an interest in coding and decided to build my skill set
+                by attending a bootcamp at UCF.</p>
             <p>(This article was posted on March, 5, 2023)</p>
         </div>
-    <a class="my-work-anchor" id="my-work-anchor"></a>
+        <a class="my-work-anchor" id="my-work-anchor"></a>
     </section>
+    <!-- Starting here, I had to be very careful and creative using display:flex to make sure all of my small work placeholders would wrap around nicely. Later in the CSS, I had to add media Query in them and add properties to let them stack back into 1 column for better readability. -->
     <section class="work" id="work">
         <h3 class="section-title">My Work</h3>
         <div>
-            <ul class="list-of-my-work">
-                    <li class="big" alt="an illustration of cyber-space communications">
-                    <img>
-                        <div>
-                            <a href="https://miketsypan89.github.io/UCF-ContactForm-HTML-CSS/">
-                                <button class="button-in-my-work">
-                                    <h4>Tsypan Security Solutions - Contact Form
-                                        <h5>Posted on: February 19, 2023</h5>
-                                    </h4>
-                                </button>
-                            </a>
+            <div class="list-of-my-work">
+                <a href="https://miketsypan89.github.io/UCF-ContactForm-HTML-CSS/">
+                    <div class="big" alt="an illustration of cyber-space communications">
+                        <div class="button-in-my-work">
+                            <h4>Tsypan Security Solutions - Contact Form</h4>
                         </div>
-                    </img>
-                </li>
-                <li class="small-1" alt="class work on a table with a cup of coffee">
-                    <img>
-                        <div>
-                            <a href="https://miketsypan89.github.io/Module-1-Challenge/"><button class="button-in-my-work">
-                                <h4>Horiseon (Class Challenge)
-                                    <h5>Posted on: February 26, 2023</h5>
-                                </h4>
-                            </button></a>
+                    </div>
+                </a>
+                <a href="https://miketsypan89.github.io/Module-1-Challenge/">
+                    <div class="small-1" alt="class work on a table with a cup of coffee">
+                        <div class="button-in-my-work">
+                            <h4>Horiseon (Class Challenge)</h4>
                         </div>
-                    </img>
-                </li>
-                <li class="small-placeholder">
-                    <img>
-                        <div>
-                            <a href="demo-page.html">
-                                <button class="button-in-my-work">
-                                    <h4>Placeholder 1
-                                        <h5>Posted on: [Date]</h5>
-                                    </h4>
-                                </button>
-                            </a>
+                    </div>
+                </a>
+                <a href="demo-page.html">
+                    <div class="placeholder">
+                        <div class="button-in-my-work">
+                            <h4>Work Title Placeholder</h4>
                         </div>
-                    </img>
-                </li>
-                <li class="small-placeholder">
-                    <img>
-                        <div>
-                            <a href="demo-page.html">
-                                <button class="button-in-my-work">
-                                    <h4>Placeholder 2
-                                        <h5>Posted on: [Date]</h5>
-                                    </h4>
-                                </button>
-                            </a>
+                    </div>
+                </a>
+                <a href="demo-page.html">
+                    <div class="placeholder">
+                        <div class="button-in-my-work">
+                            <h4>Work Title Placeholder</h4>
                         </div>
-                    </img>
-                </li>
-                <li class="small-placeholder">
-                    <img>
-                        <div>
-                            <a href="demo-page.html">
-                                <button class="button-in-my-work">
-                                    <h4>Placeholder 3
-                                        <h5>Posted on: [Date]</h5>
-                                    </h4>
-                                </button>
-                            </a>
+                    </div>
+                </a>
+                <a href="demo-page.html">
+                    <div class="placeholder">
+                        <div class="button-in-my-work">
+                            <h4>Work Title Placeholder</h4>
                         </div>
-                    </img>
-                </li>
-                <li class="small-placeholder">
-                    <img>
-                        <div>
-                            <a href="demo-page.html">
-                                <button class="button-in-my-work">
-                                    <h4>Placeholder 4
-                                        <h5>Posted on: [Date]</h5>
-                                    </h4>
-                                </button>
-                            </a>
+                    </div>
+                </a>
+                <a href="demo-page.html">
+                    <div class="placeholder">
+                        <div class="button-in-my-work">
+                            <h4>Work Title Placeholder</h4>
                         </div>
-                    </img>
-                </li>
-                <li class="small-placeholder">
-                    <img>
-                        <div>
-                            <a href="demo-page.html">
-                                <button class="button-in-my-work">
-                                    <h4>Placeholder 5
-                                        <h5>Posted on: [Date]</h5>
-                                    </h4>
-                                </button>
-                            </a>
-                        </div>
-                    </img>
-                </li>
-                <li class="small-placeholder">
-                    <img>
-                        <div>
-                            <a href="demo-page.html">
-                                <button class="button-in-my-work">
-                                    <h4>Placeholder 6
-                                        <h5>Posted on: [Date]</h5>
-                                    </h4>
-                                </button>
-                            </a>
-                        </div>
-                    </img>
-                </li>
-            </ul>
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
     <a class="contact-anchor" id="contact-anchor"></a>
     <footer class="footer-holder">
         <div class="footer-title">Contact Me</div>
-            <div class="footer-content">
-                <li>828-989-0905</li>
-                <li>miket@victorytransport.com</li>
-                <li>
-                    <a href="https://github.com/miketsypan89">
-                        <button class="nav-button">GitHub</button>
-                    </a>
-                </li>
-            </div>
+        <div class="footer-content">
+            <li>828-989-0905</li>
+            <li>miket@victorytransport.com</li>
+            <li>
+                <a href="https://github.com/miketsypan89">
+                    <button class="nav-button">GitHub</button>
+                </a>
+            </li>
+        </div>
     </footer>
 </body>
+
 </html>
