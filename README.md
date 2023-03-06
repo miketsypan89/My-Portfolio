@@ -9,5 +9,5 @@ Best for Viewing are:
 - 820px wide screen (portrait mode of an iPan Air)
 
 Here are 2 examples of how they will appear:
-![alt](assets\1920px-screen.JPG)
-![alt](assets\820px-screen.JPG)
+![alt example of 1920px wide screen](assets\1920px-screen.JPG)
+![alt example of 820px wide screen](assets\820px-screen.JPG)
