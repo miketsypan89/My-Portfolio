@@ -1,5 +1,5 @@
 # My-Portfolio
-This was a week 2 Class Challenge from the UCF Bootcamp.
+Please visit My Portfolio here: https://miketsypan89.github.io/My-Portfolio/
 
 The objective here was to create a responsive webpage that links to other pages, as well as scrolls down to certain sections of the page when buttons are clicked.
 Biggest challenge was and a take-away was learning the use of display:flex as well as the Media Query. Both of which helped me gain knowelage that will be useful in the Future.
